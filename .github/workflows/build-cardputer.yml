@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  PIO_ENV: m5stack-stamps3
+  PIO_ENV: cardputer
   ESP_CHIP: esp32s3
   FLASH_MODE: qio
   FLASH_FREQ: 80m
