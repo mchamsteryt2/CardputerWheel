@@ -37,9 +37,9 @@ void loop() {
 
     
     if (M5Cardputer.Keyboard.isKeyPressed('1')) {
-        Gamepad.pressButton(4);
+        Gamepad.pressButton(3);
     } else {
-        Gamepad.releaseButton(4);
+        Gamepad.releaseButton(3);
     }
 
     if (M5Cardputer.Keyboard.isKeyPressed('2')) {
@@ -48,10 +48,16 @@ void loop() {
         Gamepad.releaseButton(2);
     }
 
-    if (M5Cardputer.Keyboard.isKeyPressed('q')) {
-        Gamepad.pressButton(3);
+    if (M5Cardputer.Keyboard.isKeyPressed('p')) {
+        Gamepad.pressButton(8);
     } else {
-        Gamepad.releaseButton(3);
+        Gamepad.releaseButton(8);
+    }
+
+    if (M5Cardputer.Keyboard.isKeyPressed('w')) {
+        Gamepad.pressButton(9);
+    } else {
+        Gamepad.releaseButton(9);
     }
 
     if (M5Cardputer.Keyboard.isKeyPressed('`')) {
